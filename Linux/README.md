@@ -101,10 +101,17 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 10. sudo groupdel[groupname] -
 
 ## File permissions:
+
 1. chmod 777 filename -
 2. chmod 755 filename -
 3. chmod 766 filename -
 4. chown username filename -
+5. chmod rwx filename -
+
+## File Compression:
+1. tar cf [archive.tar] [file/directory]
+2. tar xf [archive.tar]
+3. tar czf [archive.tar.gz]
 
 ## system management
 
@@ -136,4 +143,39 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 2. find [path] -size [+100]
 3. grep [searchpattern] [filename]
 4. grep -r [searchpattern] [directoryname]
+
+## Processes:
+1. ps
+2. top
+3. htop
+4. kill [process_id]
+5. pkill[process_name]
+6. bg
+7. fg
+8. lsof
+9. nohup [command] &
+
+## File transfer:
+1. scp [sourcefile] [user]@[remotehost]:[destinationpath]
+2. rsync -a
+3. wget [link]
+4. curl -O [link]
+5. ftp [remotehost]
+6. sftp [user]@[remotehost]
+
+## Packages(debian/Ubuntu):
+1.  sudo apt-get install [packagename]
+2.  sudo apt install packagename
+3.  sudo apt show packagename
+4.  sudo search [keyword]
+
+## Packages(Redhat, centos, Fedora):
+1. sudo yum install package name
+2. yum search [keyword]
+3. yum list installed
+4. sudo rpm -i [packagename.rpm]
+
+##
+
+
 
