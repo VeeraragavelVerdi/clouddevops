@@ -74,4 +74,23 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 15. nano [filename]  -
 16. vi [filename]    -
 17. vim [filename]   -
-18. gpg -c [filename] - 
+18. gpg -c [filename] -
+19. wc -w [filename] -
+20. cut -d [delimiter] -
+
+## Disk usage 
+1. df -h -
+2. df -i -
+3. fdisk -l -
+4. du -ah -
+5. du -sh -
+6. mount -
+7. findmnt -
+8. mount [device_path] [mount_point]
+
+## Users and Groups
+id
+last -
+who -
+sudo useradd[username]
+sudo adduser[username]
