@@ -265,101 +265,147 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 ```
 
 ## Hardware information:
+```
 1. lscpu -
-
+```
+```
 2. lsblk -
-
+```
+```
 3. cat /proc/cpuinfo
-
+```
+```
 4. cat /proc/meminfo
-
+```
+```
 5. free -h
-
+```
+```
 6. lsusb -tv
+```
 
 
 ## Searching:
+```
 1. find [path] -name [searchpattern]
-
+```
+```
 2. find [path] -size [+100]
-
+```
+```
 3. grep [searchpattern] [filename]
-
+```
+```
 4. grep -r [searchpattern] [directoryname]
-
+```
+```
 5. locate [name]
-
+```
+```
 6. which [command]
-
+```
+```
 7. whereis [command]
-
-8. awk
-
+```
+```
+8.awk
+```
+```
 9. sed
-
+```
 ## Processes:
+```
 1. ps
-
+```
+```
 2. top
-
+```
+```
 3. htop
-
+```
+```
 4. kill [process_id]
-
+```
+```
 5. pkill[process_name]
-
+```
+```
 6. bg
-
+```
+```
 7. fg
-
+```
+```
 8. lsof
-
+```
+```
 9. nohup [command] &
-
+```
 ## File transfer:
+```
 1. scp [sourcefile] [user]@[remotehost]:[destinationpath]
-
+```
+```
 2. rsync -a
-
+```
+```
 3. wget [link]
-
+```
+```
 4. curl -O [link]
-
+```
+```
 5. ftp [remotehost]
-
+```
+```
 6. sftp [user]@[remotehost]
+```
 
 ## Packages(debian/Ubuntu):
+```
 1.  sudo apt-get install [packagename]
-
+```
+```
 2.  sudo apt install packagename
-
+```
+```
 3.  sudo apt show packagename
-
+```
+```
 4.  sudo search [keyword]
-
+```
 ## Packages(Redhat, centos, Fedora):
+```
 1. sudo yum install package name
-
+```
+```
 2. yum search [keyword]
-
+```
+```
 3. yum list installed
-
+```
+```
 4. sudo rpm -i [packagename.rpm]
-
+```
 ## ssh login
+```
 1. ssh [username]@host
-
+```
+```
 2. ssh [hostname]
-
+```
+```
 3. ssh-keygen
-
+```
+```
 4. sudo service sshd start
-
+```
+```
 5. scp [filename] [username]@[host]:[remotepath]
-
+```
+```
 6. telnet [hostname]
-
+```
 ## Network
 ```
 1. ipaddr show
