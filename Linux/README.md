@@ -53,13 +53,25 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 4. pwd            -
 5. cd             -
 6. cd ~           -
-7. cd[directory_path] -
+7. cd [directory_path] -
 8. dirs           -
 
 ## Files
 1. mkdir -
-2. rm[filename] -
-3. rm -r[directory name]
-4. rm -rf[directory name]
-5. cp[source file][destinationfile]
-   
+2. rm [filename] -
+3. rm -r [directory name] - 
+4. rm -rf [directory name] -
+5. cp [source file][destinationfile] -
+6. cp -r [source_directory][destination_directory] -
+7. mv [sourcefile][destinationfile] -
+8. touch [filename]  -
+9. cat [filename]  -
+10. cat[sourcefile] >> [destination file]
+11. head [filename] -
+12. tail [filename]   -
+13. more [filename]  -
+14. less [filename]  -
+15. nano [filename]  -
+16. vi [filename]    -
+17. vim [filename]   -
+18. gpg -c [filename] - 
