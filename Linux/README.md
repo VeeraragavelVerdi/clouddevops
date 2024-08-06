@@ -58,5 +58,8 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 
 ## Files
 1. mkdir -
-2. rm[filename]
+2. rm[filename] -
+3. rm -r[directory name]
+4. rm -rf[directory name]
+5. cp[source file][destinationfile]
    
