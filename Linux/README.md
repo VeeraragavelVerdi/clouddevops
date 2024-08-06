@@ -35,3 +35,14 @@ Validate the entire source and provide the errors Once.
 ## Intrepreter:
 
 Validate the code line by line. if one lines got error it tell to fix that particular line error then validate the next line.
+
+## Types of operating systems:
+1. Linux
+2. Windows
+
+## Linux Flavor:
+1. Ubuntu
+2. CentOs
+3. Red hat enterprise
+4. Fedora
+   
