@@ -123,3 +123,11 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 13. shutdown now
 14. dmesg -
 
+## Hardware information:
+1. lscpu -
+2. lsblk -
+3. cat /proc/cpuinfo
+4. cat /proc/meminfo
+5. free -h
+6. lsusb -tv
+
