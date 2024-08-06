@@ -180,7 +180,7 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 3. yum list installed
 4. sudo rpm -i [packagename.rpm]
 
-##ssh login
+## ssh login
 1. ssh [username]@host
 2. ssh [hostname]
 3. ssh-keygen
@@ -188,7 +188,7 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 5. scp [filename] [username]@[host]:[remotepath]
 6. telnet [hostname]
 
-##Network
+## Network
 1. ipaddr show
 2. ifconfig
 3. ping [remotehost]
