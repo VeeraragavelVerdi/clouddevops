@@ -135,91 +135,134 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 20. cut -d [delimiter] -
 ```
 ## Disk usage 
+```
 1. df -h -
-
+```
+```
 2. df -i -
-
+```
+```
 3. fdisk -l -
-
+```
+```
 4. du -ah -
-
+```
+```
 5. du -sh -
-
+```
+```
 6. mount -
-
+```
+```
 7. findmnt -
-
+```
+```
 8. mount [device_path] [mount_point]
+```
 
 ## Users and Groups
+```
 1. id
-
+```
+```
 2. last -
-
+```
+```
 3. who -
-
+```
+```
 4. sudo useradd[username] -
-
+```
+```
 5. sudo adduser[username] -
-
+```
+```
 6. sudo usermod -aG [groupname][username] -
-
+```
+```
 7. passwd -
-
+```
+```
 8. sudo passwd[username] -
-
+```
+```
 9. sudo groupadd[groupname] -
-
+```
+```
 10. sudo groupdel[groupname] -
+```
 
 ## File permissions:
-
+```
 1. chmod 777 filename -
-
+```
+```
 2. chmod 755 filename -
-
+```
+```
 3. chmod 766 filename -
-
+```
+```
 4. chown username filename -
-
+```
+```
 5. chmod rwx filename -
+```
 
 ## File Compression:
+```
 1. tar cf [archive.tar] [file/directory]
-
+```
+```
 2. tar xf [archive.tar]
-
+```
+```
 3. tar czf [archive.tar.gz]
-
+```
 ## system management
-
+```
 1. username -r -
-
+```
+```
 2. username -a -
-
+```
+```
 3. uptime -
-
+```
+```
 4. hostname -
-
+```
+```
 5. hostname -i -
-
+```
+```
 6. last reboot -
-
+```
+```
 7. date -
-
+```
+```
 8. timedatectl -
-
+```
+```
 9. cal -
-
+```
+```
 10. w -
+```
+```
 
 11. whoami -
-
+```
+```
 12. shutdown [hh:mm]
-
+```
+```
 13. shutdown now
-
+```
+```
 14. dmesg -
+```
 
 ## Hardware information:
 1. lscpu -
