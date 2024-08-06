@@ -143,6 +143,11 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 2. find [path] -size [+100]
 3. grep [searchpattern] [filename]
 4. grep -r [searchpattern] [directoryname]
+5. locate [name]
+6. which [command]
+7. whereis [command]
+8. awk
+9. sed
 
 ## Processes:
 1. ps
@@ -175,7 +180,21 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 3. yum list installed
 4. sudo rpm -i [packagename.rpm]
 
-##
+##ssh login
+1. ssh [username]@host
+2. ssh [hostname]
+3. ssh-keygen
+4. sudo service sshd start
+5. scp [filename] [username]@[host]:[remotepath]
+6. telnet [hostname]
 
-
+##Network
+1. ipaddr show
+2. ifconfig
+3. ping [remotehost]
+4. netstat -tuln
+5. whois [domainname]
+6. dig [domainname]
+7. hostname -i
+8. nslookup [domainname]
 
