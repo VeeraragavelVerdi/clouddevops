@@ -92,5 +92,34 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 id
 last -
 who -
-sudo useradd[username]
-sudo adduser[username]
+sudo useradd[username] -
+sudo adduser[username] -
+sudo usermod -aG [groupname][username] -
+passwd -
+sudo passwd[username] -
+sudo groupadd[groupname] -
+sudo groupdel[groupname] -
+
+## File permissions:
+chmod 777 filename -
+chmod 755 filename -
+chmod 766 filename -
+chown username filename -
+
+## system management
+
+username -r -
+username -a -
+uptime -
+hostname -
+hostname -i -
+last reboot -
+date -
+timedatectl -
+cal -
+w -
+whoami -
+shutdown [hh:mm]
+shutdown now
+dmesg
+
