@@ -45,4 +45,18 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 2. CentOs
 3. Red hat enterprise
 4. Fedora
+
+## Directory Navigation:
+ls             -
+ls -la         -
+ls -l          - 
+pwd            -
+cd             -
+cd ~           -
+cd[directory_path] -
+dirs
+
+## Files
+mkdir -
+rm[filename]
    
