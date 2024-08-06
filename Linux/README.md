@@ -50,11 +50,19 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 ## Directory Navigation:
 ```
 1. ls             -
+```
+```
 2. ls -la         -
+```
+```
 3. ls -l          -
-``` 
+```
+```
 4. pwd            -
+```
+```
 5. cd             -
+```
 6. cd ~           -
 7. cd [directory_path] -
 8. dirs           -
