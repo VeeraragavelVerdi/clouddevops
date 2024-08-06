@@ -4,7 +4,8 @@ A software is a set of instruction that tells a computer how to work.
 ### There are two types of software:
 1. System software Ex: Operating system, device drivers
 2.  Application software Ex:
-1. Word Processing Software:
+
+1.Word Processing Software:
 Microsoft Word
 2. Spreadsheet Software:
 Microsoft Excel
