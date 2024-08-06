@@ -40,7 +40,7 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 1. Linux
 2. Windows
 
-## Linux Flavor:
+## Linux Flavors:
 1. Ubuntu
 2. CentOs
 3. Red hat enterprise
