@@ -24,5 +24,5 @@ Adobe Photoshop
 operating system is a system software used to make communication between Hardware and  software.
 
 ## Operating system architecture
-![Architecture](https://www.sciencealert.com/the-earth-is-moving-substantially-less-because-of-the-global-pandemic)
+![Architecture](Linux/Capture.jpg)
 
