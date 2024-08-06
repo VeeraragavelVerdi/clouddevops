@@ -23,3 +23,6 @@ Adobe Photoshop
 ## What is operating system ?
 operating system is a system software used to make communication between Hardware and  software.
 
+## Operating system architecture
+![Operatingsystem architecture](https://postimg.cc/gXnGN3fn)
+
