@@ -89,37 +89,37 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 8. mount [device_path] [mount_point]
 
 ## Users and Groups
-id
-last -
-who -
-sudo useradd[username] -
-sudo adduser[username] -
-sudo usermod -aG [groupname][username] -
-passwd -
-sudo passwd[username] -
-sudo groupadd[groupname] -
-sudo groupdel[groupname] -
+1. id
+2. last -
+3. who -
+4. sudo useradd[username] -
+5. sudo adduser[username] -
+6. sudo usermod -aG [groupname][username] -
+7. passwd -
+8. sudo passwd[username] -
+9. sudo groupadd[groupname] -
+10. sudo groupdel[groupname] -
 
 ## File permissions:
-chmod 777 filename -
-chmod 755 filename -
-chmod 766 filename -
-chown username filename -
+1. chmod 777 filename -
+2. chmod 755 filename -
+3. chmod 766 filename -
+4. chown username filename -
 
 ## system management
 
-username -r -
-username -a -
-uptime -
-hostname -
-hostname -i -
-last reboot -
-date -
-timedatectl -
-cal -
-w -
-whoami -
-shutdown [hh:mm]
-shutdown now
-dmesg
+1. username -r -
+2. username -a -
+3. uptime -
+4. hostname -
+5. hostname -i -
+6. last reboot -
+7. date -
+8. timedatectl -
+9. cal -
+10. w -
+11. whoami -
+12. shutdown [hh:mm]
+13. shutdown now
+14. dmesg -
 
