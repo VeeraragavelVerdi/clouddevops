@@ -131,3 +131,9 @@ Validate the code line by line. if one lines got error it tell to fix that parti
 5. free -h
 6. lsusb -tv
 
+## Searching:
+1. find [path] -name [searchpattern]
+2. find [path] -size [+100]
+3. grep [searchpattern] [filename]
+4. grep -r [searchpattern] [directoryname]
+
